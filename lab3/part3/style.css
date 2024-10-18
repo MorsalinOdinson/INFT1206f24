@@ -27,6 +27,7 @@ aside {
 nav {
   float: left;
   width: 20%;
+  border: 10px solid #a66;
 }
 
 footer {

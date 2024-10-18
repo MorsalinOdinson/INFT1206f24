@@ -4,15 +4,22 @@ html {
 
 /* Your CSS below here */
 div {
+  background: linear-gradient(to bottom right, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0.4), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.2) 100%);
   background-color: red;
   color: white;
   width: 300px;
-  height: 300px;
+  height: 250px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   vertical-align: middle;
   font-size: 25px;
   border: 1px solid darkred;
-  border-radius: 10px
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3),
+              inset 0 4px 10px rgba(255, 255, 255, 0.2), 
+              inset 0 -4px 10px rgba(0, 0, 0, 0.4);
 }
